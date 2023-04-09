@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.10.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.61.0"
   }
 }
