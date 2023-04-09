@@ -23,7 +23,7 @@ const Button = (props) => {
   } = props;
 
   // Initialize buttonClassName array with "btn" and the provided className
-  const buttonClassName = ["btn", className];
+  const buttonClassName = [className];
 
   // Add specific classNames based on provided props
   if (isPrimary) buttonClassName.push("btn-primary");
