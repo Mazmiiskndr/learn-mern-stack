@@ -6,7 +6,7 @@ import ImageHeroFrame from "assets/images/img-hero-frame.jpg";
 export default function HeroImage() {
   return (
     // The container for the hero image and its frame
-    <div className="col-6 pl-5 mt-4">
+    <div className="col-6 pl-5 ">
       <div style={{ width: 520, height: 410 }}>
         {/* The frame for the hero image */}
         <img

@@ -16,6 +16,7 @@
   user-select: none;
   background-color: transparent;
   border: $btn-border-width solid transparent;
+  min-height: 50px;
   @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, 4px);
   @include transition($btn-transition);
 
