@@ -4,15 +4,17 @@ import IconCities from "assets/images/icons/ic_cities.svg";
 import IconTraveler from "assets/images/icons/ic_traveler.svg";
 import IconTreasure from "assets/images/icons/ic_treasure.svg";
 import numberFormat from "utils/formatNumber";
+import SmoothScroll from "smooth-scroll";
+
 
 export default function HeroText(props) {
   // Function to smoothly scroll to the Most Picked section on button click
   function showMostPicked() {
-    window.scrollTo({
-      top: props.refMostPicked.current.offsetTop - 30,
-      behavior: "smooth",
-    });
+    const scroll = new SmoothScroll();
+    const target = props.refMostPicked.current;
+    scroll.animateScroll(target, null, { speed: 1500, offset: 15 });
   }
+
 
   
 
