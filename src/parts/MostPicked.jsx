@@ -3,7 +3,7 @@ import React, { forwardRef } from "react";
 
 const MostPicked = (props, ref) => {
   return (
-    <section className="container" ref={ref} style={{ height: 2000 }}>
+    <section className="container" ref={ref} >
       <h4 className="mb-3">Most Picked</h4>
 
       <div className="container-grid">
